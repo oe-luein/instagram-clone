@@ -1,0 +1,250 @@
+::placeholder {
+    color: #9e9e93;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #333;
+}
+
+.og-nav-height {
+    height: 60px;
+}
+
+.search-area {
+    height: 36px;
+    width: 275px;
+    position: relative;
+    margin: 12px auto 0 auto;
+}
+
+.search-area>input {
+    height: 36px;
+    width: 275px;
+    text-indent: 40px;
+    background-color: #efefef;
+    color: #9e9e93;
+    border: 0px;
+    outline: 0px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+.search-area>input:focus + .search-icon {
+    display: none;
+}
+
+.search-area>input:focus {
+    text-indent: 15px;
+}
+.search-icon {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    display: block;
+}
+
+.nav-items {
+    list-style: none;
+    margin-top: 17px;
+    padding-left:0px;
+}
+
+.item {
+    display: inline-block;
+    padding: 0 20px 0 0px;
+    margin-left: 0px;
+}
+
+.stories {
+    width: 470px;
+    height: 120px;
+    padding-left: 45px;
+    margin-left: 43px;
+    padding-top: 20px;
+    font-size: 12px;
+    color: rgb(95, 95, 95);
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 10px;
+}
+
+.story {
+    background-image: url("../image/story-border.png");
+    width: 66px;
+    height: 66px;
+    float: left;
+    margin-right: 13px;
+}
+
+.posts {
+    width: 470px;
+    height: auto;
+    margin-left: 43px;
+    font-size: 12px;
+    color: rgb(95, 95, 95);
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 10px;
+}
+
+.post-header {
+    height: 55px;
+    width: 100%;
+    position: relative;
+}
+
+.post-action {
+    height: 50px;
+    padding-top: 13px;
+    padding-left: 13px;
+}
+
+.action-left {
+    float: left;
+}
+
+.action-right {
+    float: right;
+}
+
+.post-action-icon {
+    margin-right: 13px;
+}
+
+.post-action-icon:hover {
+    color: rgb(141, 141, 141);
+    fill: rgb(141, 141, 141);
+}
+
+.post-likes {
+    color: #333;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    padding-left: 3%;
+}
+
+.post-description {
+    color: #333;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    padding-left: 3%;
+}
+
+.post-comment-counter {
+    color: #333;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    padding-left: 3%;
+}
+
+.post-timestamp {
+    color: #333;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 11px;
+    padding-left: 3%;
+}
+
+.post-add-comment {
+    height: 50px;
+}
+
+.comment-emoji {
+    float: left;
+    padding-top: 13px;
+    padding-left: 13px;
+    width: 10%;
+}
+
+.comment-input {
+    float: left;
+    width: 77%;
+}
+
+.comment-share {
+    float: right;
+    width: 13%;
+    line-height: 50px;
+}
+
+.sidebar-row {
+    margin-bottom: 12px;
+    height: 35px;
+}
+
+.sidebar-header-row {
+    height: 80px;
+}
+
+.sidebar-header-left {
+    height: 100px;
+    width: 70%;
+    float: left;
+    padding-top: 20px;
+}
+
+.sidebar-header-right {
+    height: 100px;
+    line-height: 100px;
+    width: 30%;
+    padding-right: 3%;
+    float: right;
+    text-align: right;
+}
+
+.sidebar-left {
+    height: 35px;
+    width: 70%;
+    float: left;
+    font-size:12px;
+}
+
+.sidebar-right {
+    height: 35px;
+    line-height: 35px;
+    width: 30%;
+    padding-right: 3%;
+    float: right;
+    text-align: right;
+}
+
+
+.sidebar-header-right span {
+    color: #0f9bf6;
+}
+
+.sidebar-right span {
+    color: #0f9bf6;
+}
+
+.sidebar-left-image {
+    height: 100%;
+    float: left;
+}
+
+.sidebar-row>p>a>span {
+    color: #c9c8c8;
+    font-size: 11.5px;
+    font-weight: 500;
+    padding-right: 4px;
+}
+
+.sidebar-row>p>a>span:hover {
+    text-decoration: underline;
+}
+
+.sidebar-row>p {
+    line-height: 20px;
+    color: #c9c8c8;
+    padding-top: 15px;
+}
